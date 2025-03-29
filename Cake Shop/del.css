@@ -1,0 +1,19 @@
+.item {
+    width: 250px; /* Set a fixed width for all cards */
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    display: inline-block; /* Keeps them in a row */
+    vertical-align: top; /* Aligns cards properly */
+}
+
+.item img {
+    width: 100%; /* Makes image take full width of the item */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images cover the area while keeping aspect ratio */
+    border-radius: 10px; /* Optional: Makes corners rounded */
+}
+
+.item h3, .item p {
+    margin: 5px 0; /* Adds spacing */
+}
